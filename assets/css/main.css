@@ -166,6 +166,19 @@ hr {
   background-color: #fff;
   display: flex;
 }
+
+.menu-decs {
+  padding: 50px 10px;
+  color: #212529;
+  margin: auto;
+}
+
+.menu-decs h6 {
+  color: #c69963;
+  font-size: 20px;
+}
+
+
 .point-left::before,
 .point-right::before {
   content: "";
@@ -179,22 +192,8 @@ hr {
   z-index: 1;
 }
 
-.menu-decs {
-  padding: 50px 10px;
-  color: #212529;
-  margin: auto;
-}
-.menu-decs h6 {
-  color: #c69963;
-  font-size: 20px;
-}
-.menu-decs h1 {
-  color: #101d2c;
-  font-size: 30px;
-  letter-spacing: 1px;
-  font-family: "Teko", sans-serif;
-  font-weight: 300;
-}
+
+
 
 @media (min-width: 576px) {
   .navbar-brand {
@@ -206,15 +205,15 @@ hr {
   }
 }
 
-.menu-decs {
-  padding: 50px 20px;
-}
-
 @media (min-width: 768px) {
   .btn {
     width: 150px;
   }
+  .menu-decs {
+    padding: 50px 20px;
+  }
 }
+
 @media (min-width: 992px) {
   header > .container {
     padding: 0 15px;
@@ -272,37 +271,35 @@ hr {
     display: block;
     top: 50%;
     left: initial;
-    transform: translate(0,-50%) rotate(45deg);
+    transform: translate(0, -50%) rotate(45deg);
   }
 }
-.point-left::before{
-    left: -12px;
+.point-left::before {
+  left: -12px;
 }
-.point-right::before{
-    right: -12px;
+.point-right::before {
+  right: -12px;
 }
-.menu-decs p{
-    display: none;
+.menu-decs p {
+  display: none;
 }
-.menu-decs a.btn{
-    color: #fff !important;
-    background-color: #c69963;
-
+.menu-decs a.btn {
+  color: #fff !important;
+  background-color: #c69963;
 }
 /*SEXTION CHEF*/
-.card-body h1{
-    font-size: 25px;
-    letter-spacing: 1px;
-    font-family: "Teko", sans-serif;
-    font-weight: 300;
+.card-body h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
 }
-.card-body h6{
-    font-size: 16px;
-    color: #c69963;
-}
-
-footer{
-    background-color: #101d2c;
-    color: rgba(255, 255, 255, 0.5);
+.card-body h6 {
+  font-size: 16px;
+  color: #c69963;
 }
 
+footer {
+  background-color: #101d2c;
+  color: rgba(255, 255, 255, 0.5);
+}
