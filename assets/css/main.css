@@ -289,7 +289,7 @@ hr {
     background-color: #c69963;
 
 }
-/*SEXTION CHEF*/
+/*SECTION CHEF*/
 .card-body h1{
     font-size: 25px;
     letter-spacing: 1px;
@@ -306,3 +306,9 @@ footer{
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* this is a comment */
+
+a{
+  color: black !important;
+  text-decoration: underline;
+}
